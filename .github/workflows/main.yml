@@ -21,7 +21,7 @@ jobs:
         password: ${{ secrets.PRIVATE_KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          cd www/crm-rbt.any-media.ru
+          cd www/crm-rbt
           eval $(ssh-agent -s)
           ssh-add .ssh/personal_key
           (php artisan down) || true
