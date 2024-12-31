@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row">
             <input type="hidden" name="order_id" value="{{ $order->id }}">
-            <input type="hidden" name="token" value="Bearer scGz0URiSG99ds-nRCJPxWw46TJTBquXF58Qub8DL5V3b2gU5siU!qOUGcZSF0iPILyRjajOym">
+            <input type="hidden" name="token" value="Bearer 12312312312312312">
             <input type="hidden" name="spare_parts_sended" value="{{ $sparePartSended }}">
             <input type="hidden" name="cost_of_parts" value="{{ $order->metaByName('cost_of_parts') }}">
             <input type="hidden" name="got_money" value="{{ $order->metaByName('got_money') }}">
